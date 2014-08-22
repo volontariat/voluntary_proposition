@@ -1,0 +1,16 @@
+en:
+  proposition_units:
+    index:
+      title: Proposition Units
+      short_title: Units
+      name: Name
+      empty_collection: No units available.
+      
+    new: 
+      title: New Unit
+    edit: 
+      title: Edit Unit
+      
+  activerecord:
+    models:
+      proposition/unit: Proposition Unit

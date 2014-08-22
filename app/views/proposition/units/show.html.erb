@@ -1,0 +1,9 @@
+<h3><%= @unit.name %></h3>
+
+<dl class="dl-horizontal">
+  <%= show_actions %>
+</dl>
+
+<%= render 'tree' %>
+
+<%= link_to t('proposition_units.new.title'), new_organization_proposition_unit_path(@organization, proposition_unit: { parent_id: @unit.id }) %>

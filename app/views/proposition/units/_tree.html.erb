@@ -1,0 +1,7 @@
+<ul>
+<% @units.each do |unit| %>
+  <li><%= link_to unit.name, unit %>
+    <%= unit_tree(unit) %>
+  </li>
+<% end %>
+</ul>
