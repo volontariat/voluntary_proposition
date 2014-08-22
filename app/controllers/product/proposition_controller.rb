@@ -1,5 +1,5 @@
 class Product::PropositionController < ApplicationController
-  include ::VoluntaryProposition::BaseController
+  include ::Proposition::BaseController
   
   def index
   end
