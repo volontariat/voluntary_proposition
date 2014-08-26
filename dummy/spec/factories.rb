@@ -16,4 +16,9 @@ end
 
 FactoryGirl.define do
   Voluntary::Test::RspecHelpers::Factories.code.call(self)
+  
+  factory :proposition_unit, class: Proposition::Unit do
+    association :organization
+    sequence(:name) { |n| "proposition unit #{n}#{r_str}" } 
+  end
 end

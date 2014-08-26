@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get '/proposition' => 'product/proposition#index'
   
   namespace :proposition do
-    resources :units, only: [:new, :create, :show, :edit, :destroy]
+    resources :units, only: [:new, :create, :show, :edit, :update, :destroy]
     
     get 'workflow' => 'workflow#index', as: :workflow
     

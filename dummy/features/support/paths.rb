@@ -16,6 +16,16 @@ module NavigationHelpers
     when /^the home\s?page$/
       '/'
      
+    # proposition_units
+    when /^the new proposition unit page$/
+      new_organization_proposition_unit_path(@organization) 
+    
+    when /^the proposition unit page$/ 
+      proposition_unit_path(@unit) 
+     
+    when /^the edit proposition unit page$/ 
+      edit_proposition_unit_path(@unit) 
+     
     # authentication
     when /^the sign in page$/
       new_user_session_path  
