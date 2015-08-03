@@ -4,7 +4,7 @@ source "http://rubygems.org"
 gemspec path: File.expand_path(File.dirname(__FILE__) + "/../")
 
 # core
-gem 'voluntary', github: 'volontariat/voluntary'
+gem 'voluntary', path: '../../voluntary' #github: 'volontariat/voluntary'
 
 gem "rack-cors", "~> 0.2.4", require: "rack/cors"
 gem "thin", "~> 1.3.1", require: false

@@ -88,6 +88,7 @@ PATH
   specs:
     voluntary_proposition (0.0.1)
       bitmask_attributes (~> 1.0.0)
+      sass-rails (~> 4.0.2)
       voluntary (~> 0.2.0)
 
 GEM
