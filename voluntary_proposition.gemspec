@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency 'voluntary', '~> 0.2.0'
+  s.add_dependency 'voluntary', '~> 0.4.0'
   
   s.add_dependency 'bitmask_attributes', '~> 1.0.0'
   s.add_dependency 'sass-rails', '~> 4.0.2'
