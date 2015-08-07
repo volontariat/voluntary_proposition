@@ -1,4 +1,3 @@
-voluntary_proposition
-=====================
+# voluntary_proposition [![Build Status](https://travis-ci.org/volontariat/voluntary_proposition.svg?branch=master)](https://travis-ci.org/volontariat/voluntary_proposition) [![Code Climate](https://codeclimate.com/github/volontariat/voluntary_proposition/badges/gpa.svg)](https://codeclimate.com/github/volontariat/voluntary_proposition) [![Test Coverage](https://codeclimate.com/github/volontariat/voluntary_proposition/badges/coverage.svg)](https://codeclimate.com/github/volontariat/voluntary_proposition) [![Dependency Status](https://gemnasium.com/volontariat/voluntary_proposition.png)](https://gemnasium.com/volontariat/voluntary_proposition)
 
-Product for crowdsourcing plattform engine voluntary about proposition development process with delegated voting system (Liquid Democracy)
+Plugin for crowdsourcing management system http://Voluntary.Software about proposition development process with delegated voting system (Liquid Democracy).
