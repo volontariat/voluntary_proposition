@@ -1,7 +1,6 @@
-source "http://gems.github.com"
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-gemspec path: File.expand_path(File.dirname(__FILE__) + "/../")
+gemspec path: File.expand_path(File.dirname(__FILE__) + '/../')
 
 # core
 gem 'rack-cors', '~> 0.2.4', require: 'rack/cors'
