@@ -15,4 +15,4 @@ script:
   - cp config/database.travis.yml config/database.yml
   - RAILS_ENV=test bundle exec rake db:create
   - bundle exec rake db:test:prepare
-  - CODECLIMATE_REPO_TOKEN=d49f8dbfbd5b98f0bc8ddaf095fbaa5e91009f01b610261bd7799b5f2b7f709b bundle exec rspec
+  - CODECLIMATE_REPO_TOKEN=d49f8dbfbd5b98f0bc8ddaf095fbaa5e91009f01b610261bd7799b5f2b7f709b bundle exec cucumber
