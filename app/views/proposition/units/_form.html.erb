@@ -1,14 +1,14 @@
-<%= simple_form_for(@unit, html: {class: 'form-horizontal'}) do |f| %>
+<%= simple_form_for(@unit, html: { class: 'form-horizontal' }, wrapper: :horizontal_form) do |f| %>
   <%= render partial: 'shared/form/error_messages', locals: { resource: @unit } %>
   
   <%= f.hidden_field :parent_id %>
   
-  <div class="form-inputs">
-  	<%= f.input :organization_id, collection: current_user.organizations %>
-    <%= f.input :name %>
-  </div>
+	<%= f.input :organization_id, collection: current_user.organizations %>
+  <%= f.input :name %>
   
-  <div class="actions">
-    <%= f.button :submit %>
+  <div class="form-group">
+    <div class="col-sm-offset-3 col-sm-9">
+      <%= f.button :submit %>
+    </div>
   </div>
 <% end %>
